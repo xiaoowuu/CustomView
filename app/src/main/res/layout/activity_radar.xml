@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<win.smartown.library.radarview.RadarView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/radar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:boneColor="#5392FF"
+    app:boneWidth="0.5dp"
+    app:coverColor="#380392FF"
+    app:labelMargin="10dp"
+    app:netColor="#5392FF"
+    app:netWidth="1dp"
+    app:nodeColor="#53AFFF"
+    app:nodeRadius="3dp"
+    app:textColor="#868686"
+    app:textSize="12sp">
+
+</win.smartown.library.radarview.RadarView>

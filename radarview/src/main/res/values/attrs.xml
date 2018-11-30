@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RadarView">
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="boneColor" format="color" />
+        <attr name="boneWidth" format="dimension" />
+        <attr name="netColor" format="color" />
+        <attr name="netWidth" format="dimension" />
+        <attr name="nodeColor" format="color" />
+        <attr name="nodeRadius" format="dimension" />
+        <attr name="coverColor" format="color" />
+        <attr name="labelMargin" format="dimension" />
+    </declare-styleable>
+</resources>

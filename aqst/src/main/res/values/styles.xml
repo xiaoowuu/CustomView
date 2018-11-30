@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AQST" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/nav_background</item>
+        <item name="colorAccent">@color/colorMain</item>
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+    <style name="AQST.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AQST.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AQST.ToolbarTitle">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/nav_title</item>
+    </style>
+</resources>

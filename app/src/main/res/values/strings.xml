@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CustomView</string>
+    <string name="sign_view">电子签名</string>
+    <string name="radar_view">雷达图</string>
+</resources>

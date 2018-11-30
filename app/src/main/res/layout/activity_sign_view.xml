@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <win.smartown.library.signview.SignView
+        android:id="@+id/sign"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:backgroundColor="@android:color/white"
+        app:color="@android:color/holo_green_dark"
+        app:cornerRadius="1000dp"
+        app:width="1dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/clear"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/common_button"
+            android:gravity="center"
+            android:text="清空"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/bitmap"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/common_button"
+            android:gravity="center"
+            android:text="生成图片"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

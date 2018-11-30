@@ -1,0 +1,30 @@
+apply plugin: 'com.android.library'
+apply plugin: 'maven'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.appTargetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+uploadArchives {
+    repositories.mavenDeployer {
+        repository(url: "http://192.168.0.249:8081/nexus/content/repositories/android") {
+            authentication(userName: "admin", password: "admin123")
+        }
+        pom.version = '1.0.4'
+        pom.artifactId = "radarview"
+        pom.groupId = "com.yishengyue.library"
+    }
+}

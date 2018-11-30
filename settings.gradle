@@ -1,0 +1,4 @@
+include ':aqst',
+        ':app',
+        ':signview',
+        ':radarview'
