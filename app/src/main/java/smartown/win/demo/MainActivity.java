@@ -21,11 +21,11 @@ public class MainActivity extends BaseActivity {
     }
 
     public void signView(View view) {
-        JumpUtil.startActivity(this, SignViewActivity.class, getString(R.string.sign_view));
+        JumpUtil.startActivity(this, SignViewActivity.class, R.string.sign_view);
     }
 
     public void radarView(View view) {
-        JumpUtil.startActivity(this, RadarViewActivity.class, getString(R.string.radar_view));
+        JumpUtil.startActivity(this, RadarViewActivity.class, R.string.radar_view);
     }
 
 }
