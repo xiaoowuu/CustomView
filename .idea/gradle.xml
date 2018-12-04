@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/aqst" />
+            <option value="$PROJECT_DIR$/auto-display-view-pager" />
             <option value="$PROJECT_DIR$/radarview" />
             <option value="$PROJECT_DIR$/signview" />
           </set>

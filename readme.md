@@ -4,3 +4,4 @@
 ![预览图](signview/image/preview.png)
 ### [RadarView [雷达图]](radarview/)
 ![预览图](radarview/image/preview.png)
+### [AutoDisplayViewPager [雷达图]](auto-display-view-pager/)
