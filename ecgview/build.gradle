@@ -1,15 +1,14 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
+apply plugin: 'maven'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
     defaultConfig {
-        applicationId "smartown.win.demo"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.appTargetSdkVersion
         versionCode rootProject.ext.versionCode
         versionName rootProject.ext.versionName
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
@@ -17,16 +16,19 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    compileOptions {
-        sourceCompatibility = '1.8'
-        targetCompatibility = '1.8'
-    }
+
 }
 
-dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(':aqst')
-    implementation project(':signview')
-    implementation project(':radarview')
-    implementation project(':ecgview')
+dependencies{
+    implementation rootProject.ext.libraries['support-appcompat-v7']
+}
+uploadArchives {
+    repositories.mavenDeployer {
+        repository(url: "http://192.168.0.249:8081/nexus/content/repositories/android") {
+            authentication(userName: "admin", password: "admin123")
+        }
+        pom.version = '1.0.3'
+        pom.artifactId = "egcview"
+        pom.groupId = "com.yishengyue.library"
+    }
 }

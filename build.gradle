@@ -1,4 +1,4 @@
-apply from: "https://raw.githubusercontent.com/smartown/CustomView/master/config.gradle"
+apply from: "config.gradle"
 buildscript {
     repositories {
         maven { url "https://maven.aliyun.com/repository/google" }

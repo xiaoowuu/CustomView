@@ -28,4 +28,7 @@ public class MainActivity extends BaseActivity {
         JumpUtil.startActivity(this, RadarViewActivity.class, R.string.radar_view);
     }
 
+    public void ecgView(View view) {
+        JumpUtil.startActivity(this, EcgViewActivity.class, R.string.ecg_view);
+    }
 }

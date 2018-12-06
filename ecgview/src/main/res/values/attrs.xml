@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="EcgView">
+        <attr name="color" format="color" />
+        <attr name="width" format="dimension" />
+        <attr name="maxValue" format="float" />
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="cornerRadius" format="dimension" />
+    </declare-styleable>
+</resources>

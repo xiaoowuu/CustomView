@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <win.smartown.library.ecgview.EcgView
+        android:id="@+id/ecgview"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:color="@color/colorMain"
+        app:cornerRadius="1dp"
+        app:dividerWidth="4dp"
+        app:maxValue="5000"
+        app:width="1dp" />
+</FrameLayout>

@@ -1,5 +1,6 @@
 include ':aqst',
         ':app',
+        ':ecgview',
         ':signview',
         ':radarview',
         ':auto-display-view-pager'
