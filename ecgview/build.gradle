@@ -27,7 +27,7 @@ uploadArchives {
         repository(url: "http://192.168.0.249:8081/nexus/content/repositories/android") {
             authentication(userName: "admin", password: "admin123")
         }
-        pom.version = '1.0.3'
+        pom.version = '1.0.4'
         pom.artifactId = "egcview"
         pom.groupId = "com.yishengyue.library"
     }
