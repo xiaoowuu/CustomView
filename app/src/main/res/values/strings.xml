@@ -3,4 +3,6 @@
     <string name="sign_view">电子签名</string>
     <string name="radar_view">雷达图</string>
     <string name="ecg_view">心电图</string>
+    <string name="ecgview">EcgView↓</string>
+    <string name="ecgutil">EcgUtil↓</string>
 </resources>
