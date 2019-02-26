@@ -24,7 +24,7 @@ dependencies{
 }
 uploadArchives {
     repositories.mavenDeployer {
-        repository(url: "http://192.168.0.249:8081/nexus/content/repositories/android") {
+        repository(url: "http://192.168.0.65:8081/repository/maven-releases/") {
             authentication(userName: "admin", password: "admin123")
         }
         pom.version = '1.0.4'
