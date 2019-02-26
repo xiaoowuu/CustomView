@@ -29,4 +29,5 @@ dependencies {
     implementation project(':signview')
     implementation project(':radarview')
     implementation project(':ecgview')
+    implementation project(':writing')
 }

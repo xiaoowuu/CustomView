@@ -11,8 +11,10 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/aqst" />
             <option value="$PROJECT_DIR$/auto-display-view-pager" />
+            <option value="$PROJECT_DIR$/ecgview" />
             <option value="$PROJECT_DIR$/radarview" />
             <option value="$PROJECT_DIR$/signview" />
+            <option value="$PROJECT_DIR$/writing" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
